@@ -1,6 +1,7 @@
 package com.matrix.javaoop;
 
-import com.matrix.javaoop.logic.BubbleSort;
+import com.matrix.javaoop.logic.JavaSort;
+import com.matrix.javaoop.logic.Sort;
 
 import java.util.Arrays;
 
@@ -11,7 +12,7 @@ import java.util.Arrays;
  */public class Main {
     public static void main(String[] args) {
 
-        BubbleSort<String> sort = new BubbleSort<>();
+        Sort<String> sort = new JavaSort<>();
         System.out.println("[result] " + sort.sort(Arrays.asList(args)));
     }
 }
